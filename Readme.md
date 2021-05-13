@@ -150,3 +150,19 @@ Standard deviation is the square root of variance, its a measure of how far your
 <p align="center" width="100%">
     <img src=image/covarianceAndCorrelation.png> 
 </p>
+
+# Z-scores
+* If you want to compare values across two categories or maybe two entirely different features, a common way to express your data is to use z-scores.
+* Z-scores for any set of values is basically when you express every data points in terms of standard deviations from the mean.
+
+<p align="center" width="100%">
+    <img src=image/zscoreformula.jpg> 
+</p>
+
+
+* Positive values  above the mean
+* negative values are below the mean
+* Z-score value of 0 indicates that the value is exactly equal to the mean of our data
+and the magnitude of the z-score tells you how many standard deviation away from the mean value is.
+* z-scroe mean is 0 and std deviation 1
+* Expressing data in terms of z-scores does not change the fundamental nature of our data, it just makes our data easier to work with, easier for comparisons across features.  
